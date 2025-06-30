@@ -3,8 +3,8 @@ services:
     name: ctfd
     env: docker
     plan: free
-    repo: https://github.com/YOUR-USERNAME/CTFd
-    branch: master
+    repo: https://github.com/snehabiju8/CTFd
+    branch: main
     dockerfilePath: Dockerfile
     buildCommand: ""
     startCommand: ""
