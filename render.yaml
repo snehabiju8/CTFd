@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ctfd
+    env: docker
+    plan: free
+    repo: https://github.com/YOUR-USERNAME/CTFd
+    branch: master
+    dockerfilePath: Dockerfile
+    buildCommand: ""
+    startCommand: ""
