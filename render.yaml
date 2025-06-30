@@ -4,7 +4,7 @@ services:
     env: docker
     plan: free
     repo: https://github.com/snehabiju8/CTFd
-    branch: main
+    branch: master
     dockerfilePath: Dockerfile
     buildCommand: ""
     startCommand: ""
